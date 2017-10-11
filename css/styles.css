@@ -1,0 +1,49 @@
+body{
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 18px;
+}
+
+a{
+  color: #46abdf;
+}
+.page{
+  height: 100%;
+  z-index: 1;
+}
+
+#myMenu{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+#myMenu a{
+  z-index: 10;
+}
+#help a{
+  color: red;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+#myMenu li{
+  border: solid 1px #c4c4c4;
+  border-radius: 20px;
+  margin-right: 15px;
+  padding: 7px 20px 5px 20px;
+}
+
+#myMenu li:hover{
+  background-color: #46abdf;
+  color: white;
+  transition: 1.5s;
+  border-color: #46abdf;
+}
+#myMenu li:hover a{
+  color: white;
+  transition: 1.5s;
+}

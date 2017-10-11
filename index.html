@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>Mental Health</title>
   <meta name="description" content="Mental Health Resources at UNC">
   <meta name="author" content="Peyton Chance">
 
@@ -12,21 +12,38 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Custom Styles-->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav:400,500,700" rel="stylesheet">
+    <!-- Custom Styles-->
+  <link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
   <link rel="stylesheet" href="css/styles.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-
 <body>
+  <ul id="myMenu">
+    <li data-menuanchor="page-zero" class="active"><a href="#page0">First Steps</a></li>
+    <li data-menuanchor="page-one"><a href="#page1">Foot in the Door</a></li>
+    <li data-menuanchor="page-two"><a href="#page2">Know Your Options</a></li>
+    <li data-menuanchor="page-two"><a href="#page2">Your Mind on _____</a></li>
+    <li data-menuanchor="page-three"><a href="#page3">Outlook</a></li>
+    <li data-menuanchor="page-four"><a id="help" href="#page4">Need Help Now</a></li>
+  </ul>
+
+  <div id="pagepiling">
+  	<div class="section" id="page0">Some other section</div>
+  	<div class="section" id="page1">Some section</div>
+  	<div class="section" id="page2">Some section</div>
+  	<div class="section" id="page3">Some section</div>
+  </div>
 
 
 
 
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
