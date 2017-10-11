@@ -5,4 +5,13 @@ $(document).ready(function() {
     keyboardScrolling: true,
     sectionSelector: '.section',
   });
+
+  // setTimeout(revealSub, 4000){
+  //   $('#subtitle').fadeTo(1000, 1);
+  // }
+
+
+
+
+
 });
