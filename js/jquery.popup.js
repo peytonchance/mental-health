@@ -21,13 +21,14 @@
 			popup = new $.Popup(settings);
 
 		$(document)
-			.on('click.popup', selector, function(e){
-
+			.on('click.popup', '.popup', function(e){
 				var content = settings && settings.content
 					? settings.content
 					: $(this).attr('href');
 
-				popup.open('<img src="caps_map.jpg">', 'html', this);
+				e.preventDefault();
+
+				popup.open(content, undefined, this);
 
 			});
 

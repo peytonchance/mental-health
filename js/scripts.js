@@ -7,6 +7,6 @@ $(document).ready(function() {
   })
 	var options = { type : 'image' ,
   content:'caps_map.jpg'};
-  $('a.popup').popup(options);
+  $('popup').popup(options);
 
 });
