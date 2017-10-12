@@ -1,10 +1,13 @@
 body{
   font-family: 'Yantramanav', sans-serif;
   font-size: 18px;
-  color: #F0F0F2;
+  color: #DFEAF2;
 }
 p{
   font-size: 1.3em;
+  margin-bottom: 0px;
+  font-weight: 300;
+
 }
 h1{
   font-size: 5.5em;
@@ -96,15 +99,135 @@ a:hover{
 #page1{
   background-color: #758CA6;
 }
+#page1  h2{
+  color: #273758;
+}
 #page2{
   background-color: #70685B;
 }
 #page2 ul{
   list-style: none;
 }
+#page2a{
+  background-color: #758CA6;
+}
 #page3{
   background-color: #51A6A6;
+  overflow: hidden;
+}
+#page3 h2{
+  color: #273758;
 }
 #page4{
   background-color: #acd389;
+
+}
+
+.content-spacer{
+  margin-top: 3%;
+}
+
+#screening{
+  text-align: center;
+  border-radius: 30px;
+  background-color: #DFEAF2;
+  border: none;
+  width: 250px;
+  padding: 10px 0px 10px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: 'Yantramanav';
+  color:
+}
+
+#screening:hover{
+  cursor: pointer;
+  color: #DFEAF2;
+  background-color: #364759;
+}
+#foot1{
+  position: absolute;
+  z-index: -10;
+  fill-opacity: 0.2;
+  height: 415px;
+  transform: rotate(137deg);
+  right: 150px;
+  top: -70px;
+  opacity: 0;
+  animation: fadeIn2 3s linear 15s;
+  animation-fill-mode: forwards;
+}
+#foot2{
+  position: absolute;
+  z-index: -10;
+  fill-opacity: 0.2;
+  height: 415px;
+  transform: rotate(-53deg);
+  left: 50px;
+  bottom: -50px;
+  opacity: 0;
+  animation: fadeIn2 3s linear 20s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn2 {
+  from {opacity: 0 }
+  to { opacity: 1 }
+}
+.big-number{
+  font-size: 5em;
+  color: #273758;
+  font-weight: 900;
+  float: left;
+}
+#page2 h1{
+  font-size: 4.37em;
+}
+#page2a h1{
+  font-size: 4.37em;
+  width: 50%;
+}
+#page2a p{
+  width: 50%;
+}
+#page2 p{
+  color: #D9C25D;
+}
+
+
+.big-number-flex{
+  display: flex;
+align-items: center;
+}
+
+.big-number-flex p{
+  font-size: 1.5em;
+  margin-left: 24px;
+
+}
+
+.meds-bottom{
+  margin-top: 1%;
+}
+
+#synapse{
+  transform: rotate(47deg);
+  position: absolute;
+  right: -119px;
+  bottom: -249px;
+  z-index: -1;
+}
+#map{
+  min-height: 126%;
+  padding-bottom: 5%;
+  z-index: -5;
+  position: absolute;
+  top: -39px;
+}
+#page3a{
+  background-color: #368659;
+}
+.map-intro{
+  position: absolute;
+  top: 20%;
 }
