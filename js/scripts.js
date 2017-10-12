@@ -6,5 +6,5 @@ $(document).ready(function() {
     sectionSelector: '.section',
   })
 
-	// $('a.default_popup').popup();
+	$('a.popup').popup();
 });
