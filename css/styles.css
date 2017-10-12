@@ -187,6 +187,12 @@ a:hover{
   font-size: 4.37em;
   width: 50%;
 }
+#page4 h1{
+  font-size: 3.6em;
+}
+#page4 p{
+  color:#273758;
+}
 #page2a p{
   width: 50%;
 }
@@ -230,4 +236,66 @@ align-items: center;
 .map-intro{
   position: absolute;
   top: 20%;
+}
+#quiz{
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+#quiz ul{
+  list-style: none;
+}
+
+#quiz p{
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.bg-warning{
+  background: #acd389;
+}
+h3.title{
+  margin-top: 20px;
+}
+
+.possible_answer  {
+    padding: .75em;
+}
+
+.possible_answer:hover {
+	background: rgba(254, 231, 88, 1);
+	cursor: pointer;
+    font-weight: bold;
+}
+
+.correct-answer, .wrong-answer {
+	opacity: .75;
+	cursor: pointer;
+}
+
+.wrong-answer {
+	background: #FF8362;
+}
+
+.correct-answer {
+    background: #62DA97;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.selected:hover, .correct-answer:hover, .wrong-answer:hover {
+	opacity: 1;
+}
+
+.how_you_did {
+	text-align: center;
+	padding: 1em;
+	background-color: rgb(254, 231, 88);
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+p.how_you_did{
+  color: #273758;
 }
