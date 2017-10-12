@@ -126,7 +126,17 @@ a:hover{
 .content-spacer{
   margin-top: 3%;
 }
-
+#caps-video{
+  border-radius: 30px;
+  background-color: #DFEAF2;
+  border: none;
+  width: 350px;
+  padding: 10px 10px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: 'Yantramanav';
+}
 #screening{
   text-align: center;
   border-radius: 30px;
@@ -138,7 +148,6 @@ a:hover{
   margin-right: auto;
   margin-top: 20px;
   font-family: 'Yantramanav';
-  color:
 }
 
 #screening:hover{
@@ -155,7 +164,7 @@ a:hover{
   right: 150px;
   top: -70px;
   opacity: 0;
-  animation: fadeIn2 3s linear 15s;
+  animation: fadeIn2 3s linear 11s;
   animation-fill-mode: forwards;
 }
 #foot2{
@@ -167,7 +176,7 @@ a:hover{
   left: 50px;
   bottom: -50px;
   opacity: 0;
-  animation: fadeIn2 3s linear 20s;
+  animation: fadeIn2 3s linear 9s;
   animation-fill-mode: forwards;
 }
 @keyframes fadeIn2 {
@@ -298,4 +307,67 @@ h3.title{
 
 p.how_you_did{
   color: #273758;
+}
+
+/* ----- Media Queries -----*/
+
+@media only screen and (max-width: 720px){
+  h1{
+    font-size: 2.2em;
+  }
+  p{
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+  .margin-fix{
+    padding-left: 3%;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  #page2a h1 {
+    font-size: 3.1em;
+    width: 100%;
+  }
+  #page2a p{
+    width: 76%;
+  }
+  #map {
+    padding-bottom: 5%;
+    z-index: -5;
+    position: absolute;
+    bottom: -62px;
+    max-width: 91%;
+    left: 18px;
+    min-height: 115%;
+  }
+  .map-intro{
+    top: 15%;
+  }
+  #page2 h1 {
+    font-size: 3em;
+    width: 119%;
+  }
+  .big-number-flex p {
+    font-size: 1.1em;
+    margin-left: 10px;
+  }
+  #synapse{
+    right: -54px;
+  bottom: -226px;
+  max-width: 100%;
+  }
+  #page3 h2{
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  #page4 h1{
+    font-size: 2.2em;
+  }
+  #page4{
+    padding-top:40%;
+  }
+  #quiz ul{
+    width: 110%;
+  }
 }

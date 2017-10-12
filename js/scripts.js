@@ -4,14 +4,7 @@ $(document).ready(function() {
     menu: '#myMenu',
     keyboardScrolling: true,
     sectionSelector: '.section',
-  });
+  })
 
-  // setTimeout(revealSub, 4000){
-  //   $('#subtitle').fadeTo(1000, 1);
-  // }
-
-
-
-
-
+	// $('a.default_popup').popup();
 });
