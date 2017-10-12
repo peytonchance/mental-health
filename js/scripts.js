@@ -5,6 +5,8 @@ $(document).ready(function() {
     keyboardScrolling: true,
     sectionSelector: '.section',
   })
+	var options = { type : 'image' ,
+  content:'caps_map.jpg'};
+  $('a.popup').popup(options);
 
-	$('a.popup').popup();
 });

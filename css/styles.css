@@ -15,6 +15,9 @@ h1{
 a{
   color: #46abdf;
 }
+#myPopup{
+  display: none;
+}
 .page{
   height: 100vh;
   z-index: 1;
@@ -110,6 +113,7 @@ a:hover{
 }
 #page2a{
   background-color: #758CA6;
+  overflow: hidden;
 }
 #page3{
   background-color: #51A6A6;
@@ -228,7 +232,7 @@ align-items: center;
   transform: rotate(47deg);
   position: absolute;
   right: -119px;
-  bottom: -249px;
+  bottom: -285px;
   z-index: -1;
 }
 #map{
