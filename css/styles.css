@@ -312,6 +312,12 @@ p.how_you_did{
   color: #273758;
 }
 
+#page5{
+  background-color: #273758;
+}
+#page5 a{
+  font-size: 1.5em;
+}
 /* ----- Media Queries -----*/
 
 @media only screen and (max-width: 720px){
@@ -340,6 +346,13 @@ p.how_you_did{
   }
   #page2a p{
     width: 76%;
+  }
+  #page1{
+    overflow: scroll;
+    max-height: 100vh;
+  }
+  #page3{
+    overflow: scroll;
   }
   #map {
     padding-bottom: 5%;
