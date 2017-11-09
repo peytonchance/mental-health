@@ -4,6 +4,7 @@ $(document).ready(function() {
     menu: '#myMenu',
     keyboardScrolling: true,
     sectionSelector: '.section',
+		normalScrollElements: '.pp-scrollable'
   })
 	var options = { type : 'image' ,
   content:'caps_map.jpg'};

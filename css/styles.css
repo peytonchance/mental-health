@@ -1,7 +1,8 @@
 body{
   font-family: 'Yantramanav', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   color: #DFEAF2;
+  line-height: 1.3;
 }
 p{
   font-size: 1.3em;
@@ -10,18 +11,18 @@ p{
 
 }
 h1{
-  font-size: 5.5em;
+  font-size: 3.37em;
 }
 a{
-  color: #46abdf;
+  color: #273758;
 }
 #myPopup{
   display: none;
 }
-.page{
+/*.page{
   height: 100vh;
   z-index: 1;
-}
+}*/
 
 #myMenu{
   list-style: none;
@@ -33,13 +34,6 @@ a{
   background-color: #273758;
 }
 
-#myMenu a{
-  z-index: 10;
-}
-#help a{
-  color: red;
-}
-
 a:hover{
   text-decoration: none;
   color: #fff;
@@ -49,25 +43,9 @@ a:hover{
   padding-left: 15%;
   padding-right: 15%;
 }
-
-#myMenu li{
-  border: solid 1.5px #c4d9ff;
-  border-radius: 30px;
-  margin-right: 15px;
-  padding: 10px 30px 7px 30px;
+.container{
+  width: 100%;
 }
-
-#myMenu li:hover{
-  background-color: #46abdf;
-  color: white;
-  transition: 1.5s;
-  border-color: #46abdf;
-}
-#myMenu li:hover a{
-  color: white;
-  transition: 1.5s;
-}
-
 /* ------- Landing Page ------*/
 
 #page0{
@@ -99,6 +77,10 @@ a:hover{
   to { opacity: 1 }
 }
 
+.option-b{
+  margin-top: 16px;
+}
+
 #page1{
   background-color: #758CA6;
 }
@@ -123,7 +105,7 @@ a:hover{
   color: #273758;
 }
 #page4{
-  background-color: #acd389;
+  background-color: #ff7272;
 
 }
 
@@ -193,16 +175,13 @@ a:hover{
   font-weight: 900;
   float: left;
 }
-#page2 h1{
-  font-size: 4.37em;
-}
+/*#page2 h1{
+  font-size: 3.37em;
+}*/
 #page2a h1{
-  font-size: 4.37em;
   width: 50%;
 }
-#page4 h1{
-  font-size: 3.6em;
-}
+
 #page4 p{
   color:#273758;
 }
@@ -212,22 +191,17 @@ a:hover{
 #page2 p{
   color: #D9C25D;
 }
-
-
 .big-number-flex{
   display: flex;
 align-items: center;
 }
-
 .big-number-flex p{
   font-size: 1.5em;
   margin-left: 24px;
 }
-
 .meds-bottom{
   margin-top: 1%;
 }
-
 #synapse{
   transform: rotate(47deg);
   position: absolute;
@@ -256,7 +230,6 @@ align-items: center;
 #quiz ul{
   list-style: none;
 }
-
 #quiz p{
   padding-left: 5%;
   padding-top: 1%;
@@ -268,38 +241,30 @@ align-items: center;
 h3.title{
   margin-top: 20px;
 }
-
 .possible_answer  {
     padding: .75em;
 }
-
 .possible_answer:hover {
 	background: rgba(254, 231, 88, 1);
 	cursor: pointer;
     font-weight: bold;
 }
-
 .correct-answer, .wrong-answer {
 	opacity: .75;
 	cursor: pointer;
 }
-
 .wrong-answer {
 	background: #FF8362;
 }
-
 .correct-answer {
     background: #62DA97;
 }
-
 .selected {
     opacity: 1;
 }
-
 .selected:hover, .correct-answer:hover, .wrong-answer:hover {
 	opacity: 1;
 }
-
 .how_you_did {
 	text-align: center;
 	padding: 1em;
@@ -307,16 +272,15 @@ h3.title{
 	font-weight: bold;
 	font-size: 1.25em;
 }
-
 p.how_you_did{
   color: #273758;
 }
-
 #page5{
   background-color: #273758;
 }
 #page5 a{
   font-size: 1.5em;
+  color: #fff;
 }
 /* ----- Media Queries -----*/
 
@@ -338,10 +302,11 @@ p.how_you_did{
     font-size: 1.5em;
   }
   #page1 h2{
-    margin-top: 13px;
+    margin-top: 17px;
+    font-size: 16px;
   }
   #page2a h1 {
-    font-size: 3.1em;
+    font-size: 30px;
     width: 100%;
   }
   #page2a p{
@@ -353,6 +318,7 @@ p.how_you_did{
   }
   #page3{
     overflow: scroll;
+    height: 100%;
   }
   #map {
     padding-bottom: 5%;
@@ -362,6 +328,9 @@ p.how_you_did{
     max-width: 90%;
     left: 18px;
     min-height: 154%;
+  }
+  .hide-synapse{
+    display: none;
   }
   .map-intro{
     top: 15%;
